@@ -1,0 +1,810 @@
+/* fraunces-regular - latin */
+@font-face {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/fraunces-v24-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/fraunces-v24-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* mulish-regular - latin */
+@font-face {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/mulish-v12-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/mulish-v12-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ffffff;
+  font-family: "Mulish", "Fraunces";
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1530px;
+  max-height: 10219px;
+  width: 1530px;
+  height: 10219px;
+  box-sizing: border-box;
+}
+
+.site-name {
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 60px;
+  margin-top: 50px;
+}
+
+.site-pages-list {
+  display: flex;
+  margin-top: -25px;
+  margin-left: 950px;
+  margin-right: 60px;
+  width: 552px;
+}
+
+.first-page {
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.4px;
+  color: #222222;
+}
+
+.second-page {
+  cursor: pointer;
+  margin-left: 80px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.4px;
+  color: #2f2f2f;
+}
+
+.third-page {
+  cursor: pointer;
+  margin-left: 80px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.4px;
+  color: #222222;
+}
+
+.fourth-page {
+  cursor: pointer;
+  margin-left: 80px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.4px;
+
+  color: #2f2f2f;
+}
+
+.your-creativity-div {
+  margin: 0 auto;
+  margin-top: 100px;
+  background-image: url(../img/hero-section-bgi.svg);
+  width: 1320px;
+  height: 1063px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+h1 {
+  display: inline-block;
+}
+
+.your-creativity-first-title {
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 140px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 130px;
+  /* or 130% */
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #242f65;
+}
+
+.your-creativity-text {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 500px;
+  height: 113px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  /* or 150% */
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #242f65;
+}
+
+.your-creativity-links {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.your-creativity-first-link {
+  padding: 21px 71px;
+  border: 1px solid #ff774c;
+  border-radius: 15px;
+  background-color: #ff774c;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+}
+
+.your-creativity-second-link {
+  margin-left: 10px;
+  padding: 21px 71px;
+  border: 1px solid #7390f9;
+  border-radius: 15px;
+  background-color: #7390f9;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+}
+
+.your-creativity-sdtsolw {
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.your-creativity-sdtsolw-img-text {
+  display: block;
+  margin: 0 auto;
+}
+
+.your-creativity-sdtsolw-img-arrow-to-down {
+  display: block;
+  margin: 0 auto;
+  margin-top: -140px;
+}
+
+/* another-section */
+
+.proffesional-home-pages-div {
+  margin-bottom: 60px;
+  margin-top: 120px;
+}
+
+.proffesional-home-pages-title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  /* identical to box height, or 140% */
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #242f65;
+}
+
+.proffesional-home-pages-text {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #525665;
+}
+
+.proffesional-home-pages-images-div {
+  text-align: center;
+  display: flex;
+  margin-top: 60px;
+}
+
+.Professional-home-pages-first-img {
+  display: inline-block;
+  background: url(.jpg);
+  filter: drop-shadow(0px 3px 19px rgba(0, 0, 0, 0.09));
+  border-radius: 20px;
+  width: 645px;
+  height: 881px;
+}
+
+.proffesional-home-pages-first-image-text {
+  display: flex;
+  display: inline-block;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #242f65;
+}
+
+.Professional-home-pages-second-img {
+  display: inline-block;
+  background: url(.jpg);
+  filter: drop-shadow(0px 3px 19px rgba(0, 0, 0, 0.09));
+  border-radius: 20px;
+  width: 645px;
+  height: 881px;
+}
+
+.proffesional-home-pages-second-image-text {
+  display: inline-block;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #242f65;
+}
+
+/* another-section */
+
+.stunning-case-studies {
+  margin: 0 auto;
+  background-color: #edf0f9;
+  height: 1344px;
+  width: 1440px;
+  left: 0px;
+  border-radius: 0px;
+}
+
+.stunning-case-studies-div {
+  margin-bottom: 60px;
+  margin-top: 120px;
+}
+
+.stunning-case-studies-title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  /* identical to box height, or 140% */
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #242f65;
+}
+
+.stunning-case-studies-text {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #525665;
+}
+
+.stunning-case-studies-images-div {
+  text-align: center;
+  display: flex;
+  margin-top: 60px;
+}
+
+.stunning-case-studies-first-img {
+  display: inline-block;
+  background: url(.jpg);
+  filter: drop-shadow(0px 3px 19px rgba(0, 0, 0, 0.09));
+  border-radius: 20px;
+  width: 645px;
+  height: 881px;
+}
+
+.stunning-case-studies-image-text {
+  display: flex;
+  display: inline-block;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #242f65;
+}
+
+.stunning-case-studies-second-img {
+  display: inline-block;
+  background: url(.jpg);
+  filter: drop-shadow(0px 3px 19px rgba(0, 0, 0, 0.09));
+  border-radius: 20px;
+  width: 645px;
+  height: 881px;
+}
+
+.stunning-case-studies-second-image-text {
+  display: inline-block;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #242f65;
+}
+
+/* another-section */
+
+.supportive-pages {
+  margin-left: 100px;
+  margin-top: 120px;
+}
+
+.supportive-pages-text-div {
+  margin-bottom: 60px;
+}
+
+.supportive-pages-title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  /* identical to box height, or 140% */
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #242f65;
+}
+
+.supportive-pages-text {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #525665;
+}
+
+.supportive-pages-images-div {
+  display: flex;
+  text-align: center;
+}
+
+.about-me-img {
+  background: url(.jpg);
+  filter: drop-shadow(0px 3px 19px rgba(0, 0, 0, 0.09));
+  border-radius: 20px;
+}
+
+.blog-img {
+  background: url(.jpg);
+  filter: drop-shadow(0px 3px 19px rgba(0, 0, 0, 0.09));
+  border-radius: 20px;
+}
+
+.blog-single-img {
+  background: url(.jpg);
+  filter: drop-shadow(0px 3px 19px rgba(0, 0, 0, 0.09));
+  border-radius: 20px;
+}
+
+.contact-us-img {
+  background: url(.jpg);
+  filter: drop-shadow(0px 3px 19px rgba(0, 0, 0, 0.09));
+  border-radius: 20px;
+}
+
+.supportive-pages-pages-first-image-text {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #242f65;
+}
+
+.supportive-pages-pages-second-image-text {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #242f65;
+}
+
+.supportive-pages-pages-first-image-text {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #242f65;
+}
+
+.supportive-pages-pages-second-image-text {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #242f65;
+}
+
+/* another-section */
+
+.utility-pages {
+  margin: 0 auto;
+  height: 2401px;
+  width: 1440px;
+  background: #2a2c32;
+  border-radius: 0px;
+  margin-top: 110px;
+}
+
+.utility-pages-title {
+  margin-top: 120px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  /* identical to box height, or 140% */
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+}
+
+.utility-pages-text {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+  margin-bottom: 60px;
+}
+
+.utility-pages-images {
+  margin-left: 50px;
+}
+
+.utilty-pages-first-images-first-image-text {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.4px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.utilty-pages-third-images-first-image-text {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.4px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.utilty-pages-fourth-images-second-image-text {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.4px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.ultility-pages-second-images-div-div {
+  display: flex;
+  margin-left: 50px;
+}
+
+/* another-section */
+
+.Rtgswu {
+  background-image: url(../img/IMAGE.png);
+  max-height: 503px;
+  width: 1320px;
+  margin: 0 auto;
+}
+
+.Rtgswu-title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  /* identical to box height, or 140% */
+  letter-spacing: 0.4px;
+  color: #242f65;
+}
+
+.Rtgswu-text {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+  letter-spacing: 0.4px;
+  color: #525665;
+}
+
+.Rtgswu-link {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.4px;
+  color: #ffffff;
+  padding: 20px 40px;
+  border: 1px solid #ff774c;
+  border-radius: 15px;
+  background-color: #ff774c;
+}
+
+.Rtgswu-text-div-div {
+  padding-top: 111px;
+  padding-bottom: 70px;
+}
+
+.Rtgswu-img {
+  display: inline-block;
+  margin-left: 395px;
+  margin-top: -333px;
+}
+
+/* another-section */
+
+.footeridk {
+  margin-top: 100px;
+  max-width: 1540px;
+  height: 888px;
+}
+
+.footeridkimgcool {
+  margin: 0 590px;
+}
+
+.p1-p6thigs-div {
+  display: flex;
+  margin-left: 60px;
+}
+
+.p4-p6things-div {
+  margin-left: 70px;
+}
+
+.p1thing {
+  margin-bottom: 15px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.4px;
+  color: #242f65;
+}
+
+.p2thing {
+  margin-bottom: 15px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.4px;
+  color: #242f65;
+}
+
+.p3thing {
+  margin-bottom: 15px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.4px;
+  color: #242f65;
+}
+
+.p4thing {
+  margin-bottom: 15px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.4px;
+  color: #242f65;
+}
+
+.p5thing {
+  margin-bottom: 15px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.4px;
+  color: #242f65;
+}
+
+.p6thing {
+  margin-bottom: 15px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.4px;
+  color: #242f65;
+}
+
+.textfooteriddkk {
+  background-color: #fff;
+  padding: 39px 235px 41px 30px;
+  margin-top: -140px;
+  border: 1px solid white;
+  border-radius: 15px;
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.4px;
+  color: #242f65;
+}
+
+.secondtextfooteriddkk {
+  background-color: #242f65;
+  margin-left: 1210px;
+  margin-bottom: -160px;
+  width: 187px;
+  height: 52px;
+  margin-top: -100px;
+  border: 1px solid #242f65;
+  border-radius: 15px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+}
+
+.lastp1 {
+  margin-left: 400px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #242f65;
+}
+.lastp2 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #242f65;
+}
+.lastp3 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #242f65;
+}
+.lastp4 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #242f65;
+}
